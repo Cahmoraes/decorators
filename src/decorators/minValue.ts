@@ -6,7 +6,7 @@ export function MinValue(minValue: number) {
         return value
       },
       set(newValue: number) {
-        if (newValue < minValue) throw new Error('O valor é menor que o valor mínimo')
+        if (newValue < minValue) throw new Error(`O valor é menor que o valor mínimo: ${minValue}`)
         value = newValue
       }
     })
