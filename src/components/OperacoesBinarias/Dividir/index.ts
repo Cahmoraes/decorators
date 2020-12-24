@@ -23,7 +23,7 @@ export class Dividir extends OperacaoBinaria<string> implements IInit<Dividir>, 
   private _number_1: number
 
   @MinValue(1)
-  @InjectNumber(2)
+  @InjectNumber(1)
   private _number_2: number
 
   constructor() {
